@@ -21,7 +21,7 @@ public class CloudflareGeographicModelTests
         var model = new CloudflareGeographicModel { CountryCode = "US" };
 
         var copy = model.Copy();
-        (copy as CloudflareGeographicModel).CountryCode = "GB";
+        ((copy as CloudflareGeographicModel)!).CountryCode = "GB";
 
         Assert.Equal("US", model.CountryCode);
     }

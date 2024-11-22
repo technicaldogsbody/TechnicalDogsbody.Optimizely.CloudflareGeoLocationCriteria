@@ -15,7 +15,7 @@ jobs:
       uses: actions/setup-dotnet@v1
     - name: Restore
       working-directory: ./src
-      run: dotnet restore --configfile ./nuget.config
+      run: dotnet restore --configfile ./nuget.config --verbosity quiet
     - name: Build
       working-directory: ./src
       run: dotnet build -c Release --no-restore
