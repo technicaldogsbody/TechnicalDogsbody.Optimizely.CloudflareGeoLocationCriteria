@@ -13,9 +13,12 @@ jobs:
       uses: actions/checkout@v2
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v1
+    - name: Restore
+      working-directory: ./src
+      run: dotnet restore --configfile ./src/nuget.config
     - name: Build
       working-directory: ./src
-      run: dotnet build -c Release
+      run: dotnet build -c Release --no-restore
     - name: Test
       working-directory: ./src
       run: dotnet test -c Release --no-build
