@@ -45,7 +45,7 @@ Install-Package TechnicalDogsbody.Optimizely.CloudflareGeoLocationCriteria
 ## **Requirements**
 
 - **Optimizely CMS**: Version 12 or later.  
-- **.NET Version**: .NET 6 or later.  
+- **.NET Version**: .NET 8.0 or later.  
 - **Cloudflare Account**: Your site must be proxied via Cloudflare with the `CF-IPCountry` header enabled.  
 
 ---

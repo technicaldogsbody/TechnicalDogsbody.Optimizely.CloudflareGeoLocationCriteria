@@ -1,6 +1,5 @@
 ﻿using System.Security.Principal;
 using EPiServer.Personalization.VisitorGroups;
-using System.Web;
 using Microsoft.AspNetCore.Http;
 
 namespace TechnicalDogsbody.Optimizely.CloudflareGeoLocationCriteria;

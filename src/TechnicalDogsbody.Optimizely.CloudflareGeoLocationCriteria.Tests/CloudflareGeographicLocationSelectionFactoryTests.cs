@@ -1,8 +1,6 @@
 namespace TechnicalDogsbody.Optimizely.CloudflareGeoLocationCriteria.Tests;
 
-using System.Globalization;
 using System.Linq;
-using System.Runtime.InteropServices.JavaScript;
 using CloudflareGeoLocationCriteria;
 using Xunit;
 

@@ -33,9 +33,9 @@ A lightweight integration for Optimizely CMS that adds support for Cloudflare's 
 
 ### **Prerequisites**
 
-- Optimizely CMS 12+
-- .NET 6+
-- A site hosted behind Cloudflare with geolocation headers enabled.
+- Optimizely CMS 12
+- .NET 8.0+
+- A site hosted on Optimizely DXP or behind Cloudflare with geolocation headers enabled.
 
 ---
 

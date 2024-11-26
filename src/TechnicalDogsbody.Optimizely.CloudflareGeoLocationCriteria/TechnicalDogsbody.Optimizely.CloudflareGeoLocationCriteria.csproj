@@ -7,7 +7,10 @@
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
 	<Title>TechnicalDogsbody's Optimizely Cloudflare GeoLocation Criteria</Title>
-	<Version>1.0.1</Version>
+	<Version>1.0.2</Version>
+	<RepositoryType>git</RepositoryType>
+	<RepositoryUrl>https://github.com/technicaldogsbody/TechnicalDogsbody.Optimizely.CloudflareGeoLocationCriteria</RepositoryUrl>
+	<PackageTags>Optimizely; Personalisation; Visitor Groups</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

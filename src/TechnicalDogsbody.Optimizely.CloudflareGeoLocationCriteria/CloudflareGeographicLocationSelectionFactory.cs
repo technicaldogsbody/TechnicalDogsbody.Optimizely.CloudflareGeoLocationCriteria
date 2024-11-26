@@ -21,7 +21,7 @@ public class CloudflareGeographicLocationSelectionFactory : ISelectionFactory
 
                 return item;
 			})
-            .Where(c => c.Value.ToString()?.Length == 2).OrderBy(c => c.Text);
+            .Where(c => c.Value.ToString().Length == 2).OrderBy(c => c.Text);
 
         return cultures.DistinctBy(c => c.Value);
 	}
